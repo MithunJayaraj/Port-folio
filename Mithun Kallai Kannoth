@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mithun Kallai Kannoth | Web Developer Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #1e90ff;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #333;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #1e90ff;
+    }
+    .project {
+      background: white;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #1e90ff;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .contact-info {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mithun Kallai Kannoth</h1>
+    <p>Web Developer & Data Science Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate Web Developer with experience in building responsive, data-driven websites. I’m looking to bring my frontend and data skills into the real estate tech space.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5, CSS3, JavaScript</li>
+      <li>Python, SQL, Flask</li>
+      <li>Responsive Design, SEO Basics</li>
+      <li>Pandas, Matplotlib, Scikit-learn</li>
+      <li>MS Office, QuickBooks, Tally</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Real Estate Listing Website</h3>
+      <p>Responsive website with property grid, contact form, and filtering features using JavaScript.</p>
+      <p><a href="#">Download</a> | <a href="#">Live Demo</a></p>
+    </div>
+
+    <div class="project">
+      <h3>Real Estate Price Predictor</h3>
+      <p>Data-driven web app predicting house prices using regression models and Flask backend.</p>
+      <p><a href="#">GitHub Repo</a></p>
+    </div>
+
+    <div class="project">
+      <h3>Property Damage Risk Estimator</h3>
+      <p>Machine learning model to predict structural damage from earthquakes for buildings.</p>
+      <p><a href="#">GitHub Repo</a></p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume & Certifications</h2>
+    <p><a href="#">Download My Resume (PDF)</a></p>
+    <ul>
+      <li>Diploma in Python and Data Science – IPCS Academy</li>
+      <li>Diploma in HTML5, CSS3, and JavaScript – Alison</li>
+      <li>Diploma in Foreign Accounting – Bharath Education Foundation</li>
+      <li>MBA in HR & IT</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:mithunjayaraj.dxb@gmail.com">mithunjayaraj.dxb@gmail.com</a></p>
+      <p>Phone: +971 582528731 | +91 7025235260</p>
+      <p>Location: Dubai, UAE</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mithun Kallai Kannoth. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
